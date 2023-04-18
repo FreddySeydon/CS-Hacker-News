@@ -1,0 +1,46 @@
+/* :root {
+    --headerColor: #FF742B;
+    --backgroundColor: #F6F6EF;
+    --textColor1: #391700;
+    --textColor2: #B4B4B1;
+}; */
+
+.footerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #F6F6EF;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-decoration: none;
+    border-top: solid #FF742B 0.2rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #391700
+}
+
+.footerLinks a {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.footerLinks {
+    font-size: 0.8rem;
+}
+
+.searchLabel {
+    padding-right: 0.5rem;
+    color: #B4B4B1;
+}
+
