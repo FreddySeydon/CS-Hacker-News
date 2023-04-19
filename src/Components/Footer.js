@@ -1,7 +1,7 @@
 import React from "react";
 import Searchbar from './Searchbar';
 
-export default function Footer() {
+export default function Footer({doSearch}) {
     return(
         <div className="footerWrapper">
             <div className="footer">
@@ -23,7 +23,7 @@ export default function Footer() {
                     |
                     <a href="mailto:hn@ycombinator.com">Contact</a>
                 </div>
-                <Searchbar />
+                <Searchbar doSearch={doSearch} />
             </div>
         </div>
     )
