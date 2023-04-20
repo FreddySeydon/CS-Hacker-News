@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <>
+    <div className="header-container">
       <div className="head">
         <a href="https://news.ycombinator.com/news">
           <img
@@ -61,6 +61,6 @@ export default function Header() {
           </a>
         </li>
       </div>
-    </>
+    </div>
   );
 }
