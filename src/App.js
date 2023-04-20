@@ -38,7 +38,9 @@ function App() {
   return (
     <>
     <Header />
+    <ol>
     <Results results={results} />
+    </ol>
     <Footer doSearch={doSearch} />
     </>
   )
