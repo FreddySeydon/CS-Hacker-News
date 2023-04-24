@@ -10,11 +10,18 @@
   --textColor1: #391700;
   --textColor2: #b4b4b1;
 }
+ol {
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+  color: #828282;
+  font-size: 13px;
+}
 
 /* header start  */
 .header-container {
   display: flex;
   justify-content: center;
+  margin-top: 0.8rem;
 }
 .head {
   justify-content: left;
@@ -54,6 +61,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0.8rem;
 }
 
 .footer {
@@ -72,39 +80,36 @@ p {
 
 .footer a {
   text-decoration: none;
-  color: #391700;
+  color: #000000;
+  font-size: 13px;
 }
 
 .footerLinks a {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+  font-size: 11px;
 }
 
-.footerLinks {
-  font-size: 0.8rem;
-}
+/* .footerLinks {
+  font-size: 11px;
+} */
 
 .searchLabel {
   padding-right: 0.5rem;
-  color: #b4b4b1;
+  color: #828282;
+  font-size: 13px;
 }
 
 /* app start   */
 
 .news-container {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  justify-content: left;
+  margin: 0 auto;
   width: 80vw;
   background-color: #f6f6ef;
-  margin: 0 auto;
 }
-.news-container:hover {
-  cursor: pointer;
-}
+
 .title {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 13px;
 }
 
@@ -119,12 +124,11 @@ a {
   text-decoration: none;
 }
 
-.snippet {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.3rem;
+.link {
   color: #828282;
   font-size: 9px;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
 }
 
 /* TOOLTIP TIME */
@@ -133,6 +137,7 @@ a {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
+  color: #828282;
 }
 
 .tooltip .tooltiptext {
@@ -149,6 +154,7 @@ a {
   left: 50%;
   /* margin-left: -60px; */
   opacity: 0;
+
   /* transition: opacity 0.3s; */
 }
 
